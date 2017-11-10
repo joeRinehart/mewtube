@@ -1,0 +1,58 @@
+body {
+    min-height: 75rem;
+    padding-top: 1rem;
+}
+
+[v-cloak] {
+    display: none;
+}
+
+.alert {
+    margin-bottom:0px;
+}
+
+/* icons that are the first child of a button should margin right */
+.btn > i.fa:first-child {
+    margin-right:8px;
+}
+
+/* bottom form controls should line up with form inputs */
+.offset-form-control {
+    padding-left:0px;
+}
+@media(min-width: 768px) {
+    .offset-form-control {
+        padding-left:8px;
+    }
+}
+
+.row {
+    margin-bottom: 5px;
+}
+
+/* replacement for hr */
+.rule {
+    min-height:1px;
+    height:1px;
+    border-bottom: 1px solid rgb(0, 123, 255);
+    margin: 15px 0px 20px 0px;
+}
+
+.btn {
+    cursor: pointer;
+}
+/* ONE OFF */
+
+.instructions, .metadata, .subtitle {
+    font-size: 0.75rem;
+    color: #777777;
+}
+
+#upload-instructions {
+    padding: 0px;
+    margin-top:5px;
+}
+#upload-btn {
+}
+
+

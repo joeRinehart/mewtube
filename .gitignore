@@ -1,0 +1,15 @@
+Thumbs.db
+.DS_Store
+.gradle
+build/
+.idea
+*.iml
+*.ipr
+*.iws
+.project
+.settings
+.classpath
+.asscache
+deployment/
+grails-app/conf/environment/environment.yml
+grails-app/conf/environment/environment-production.yml

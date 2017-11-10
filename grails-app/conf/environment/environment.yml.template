@@ -1,0 +1,26 @@
+dataSource:
+  driverClassName: org.postgresql.Driver
+  url: jdbc:postgresql://localhost:5432/database-name
+  username:
+  password:
+
+rinehart:
+    video:
+        example:
+            max_videos: 10
+            users:
+                - username: rinehart
+                  password:
+                - username: envrnmnt
+                  password:
+
+aws:
+    user:
+    access_key:
+    secret_key:
+    region:
+    bucket:
+    et_pipeline:
+    et_preset_id:
+    max_filesize: 10485760
+    max_filesize_label: 10MB
